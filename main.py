@@ -30,7 +30,7 @@ pivot_table = data.pivot_table(index = ["userId"],columns = ["title"],values = "
 pivot_table.head(10)
 
 #select movie that you want to analyse and compare it with other movies
-movie_watched = pivot_table["Bad Boys (1995)"]
+movie_watched = pivot_table["Movie name"]
 similarity = pivot_table.corrwith(movie_watched)  # find correlation between "Bad Boys (1995)" and other movies
 similarity = similarity.sort_values(ascending=False)
 similarity.head()
