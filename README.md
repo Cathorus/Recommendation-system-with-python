@@ -105,5 +105,3 @@ print(f'Accuracy on testing data : {test_data_accuray}')
 ```
 
 🚨 Note: This code is provided as a prototype and may require further enhancements and optimizations for real-world scenarios. 
-
-📝 Copy the code directly to your GitHub repository and customize it according to your specific requirements.
